@@ -1,0 +1,158 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7eff7;
+        }
+
+        .todo{
+            max-width: 200px;
+            max-height: 150px;
+            align-items: center;
+
+
+        }
+
+        #todo-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #dd3f99;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0e0000;
+        }
+
+        #task {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #0f0601;
+            outline: none;
+            font-size: 16px;
+        }
+
+        #add-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #05dbef;
+            color: #0a0a0a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #add-button:hover {
+            background-color: #222;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .task-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .task-text {
+            flex: 1;
+            font-size: 18px;
+            color: #0d0101;
+        }
+
+        .task-priority {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #fff8f8;
+        }
+
+        .high-priority {
+            background-color: #4caf50;
+        }
+
+        .medium-priority {
+            background-color: #4caf50;
+        }
+
+        .low-priority {
+            background-color: #4caf50;
+        }
+
+        .complete-button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .complete-button:hover {
+            background-color: #45a049;
+        }
+
+        .due-date {
+            font-size: 14px;
+            color: #060000;
+        }
+
+        .edit-button {
+            background-color: #2196F3;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .edit-button:hover {
+            background-color: #0b7dda;
+        }
+
+        .delete-button {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .delete-button:hover {
+            background-color: #d32f2f;
+        }
+
+        .filter-select {
+            padding: 8px;
+            border: 1px solid #f7f4f4;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+    
